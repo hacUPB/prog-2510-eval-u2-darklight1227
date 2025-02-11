@@ -20,3 +20,12 @@
 
 ### Importancia del trabajo de George Boole :  
    <mark>George Boole fue un matemático y lógico que desarrolló una rama de las matemáticas conocida como álgebra booleana, que es fundamental para la computación moderna. Su trabajo permitió la representación de valores lógicos (verdadero o falso, 1 o 0) mediante operaciones matemáticas, las cuales son esenciales para el procesamiento de información en las computadoras. Gracias a la álgebra booleana, las computadoras pueden realizar operaciones complejas utilizando simples valores binarios, lo que forma la base de todo el procesamiento digital de datos.
+
+
+   ## Ejercicio 2
+
+- $1010101010_2$ = $682_10$
+- $11111_2$ = $31_10$
+- $10000000_2$ = $128_10$
+- $100100100_2$ = $292_10$
+- $111000_2$ = $56_10$
