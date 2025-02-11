@@ -58,9 +58,9 @@
 
 <mark> Se almacena la información cada 10 segundos durante 24 horas. Calcula cuánto espacio total se requiere en memoria para almacenar estos datos. Describe el procedimiento y muestra el resultado final.
 
-Cada minuto se almacenan 6 datos
-Cada hora se almacenan 360 datos
-Cada 24 horas se almacenan 8.640 datos
+- Cada minuto se almacenan 6 datos
+- Cada hora se almacenan 360 datos
+- Cada 24 horas se almacenan 8.640 datos
 
 Debido a los valores de los diferentes datos (19) necesitamos multiplicarlo por los datos almacenados
 
