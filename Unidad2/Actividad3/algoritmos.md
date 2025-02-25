@@ -46,3 +46,57 @@ Imprimir ( " Su promedio mensual fue de " ) +Prom_mensual
 
 Fin
 ```
+
+
+#### Ejercicios 3 
+
+## 1. 
+```
+Inicio
+    Leer cantidad_de_lapices
+    Si cantidad_de_lapices >= 1000 Entonces
+        precio_por_lapiz <- 85
+    Sino
+        precio_por_lapiz <- 90
+    FinSi
+    total_a_pagar <- cantidad_de_lapices * precio_por_lapiz
+    Escribir "El total a pagar es: ", total_a_pagar
+Fin
+```
+
+## 2. 
+
+```
+Inicio
+    Leer monto_compra
+    Si monto_compra > 250000 Entonces
+        descuento <- monto_compra * 0.15
+    Sino
+        descuento <- monto_compra * 0.08
+    FinSi
+    precio_final <- monto_compra - descuento
+    Escribir "El descuento es: ", descuento
+    Escribir "El precio final a pagar es: ", precio_final
+Fin
+```
+
+## 3.
+
+```
+Inicio
+    Leer cantidad_de_alumnos
+    Si cantidad_de_alumnos >= 100 Entonces
+        costo_por_alumno <- 65
+    SinoSi cantidad_de_alumnos >= 50 Entonces
+        costo_por_alumno <- 70
+    SinoSi cantidad_de_alumnos >= 30 Entonces
+        costo_por_alumno <- 95
+    Sino
+        costo_por_alumno <- 4000 / cantidad_de_alumnos
+    FinSi
+    total_a_pagar <- cantidad_de_alumnos * costo_por_alumno
+    Escribir "El costo por alumno es: ", costo_por_alumno
+    Escribir "El total a pagar por el servicio es: ", total_a_pagar
+Fin
+
+```
