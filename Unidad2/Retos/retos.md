@@ -22,8 +22,8 @@ Fin
 ```
 Inicio
     Leer A, B
-    C = √(A^2 + B^2)
-    Imprimir "La hipotenusa del triangulo es : ", C
+    H = √(A^2 + B^2)
+    Imprimir "La hipotenusa del triangulo es : ", H
 Fin
 ```
  
