@@ -1,7 +1,7 @@
 ## RETOS!
 
 ### <mark>1. Algortimo para obtener la distancia entre dos puntos del plano
-
+```
 Inicio
     Leer X1, X2, Y1. Y2 
 
@@ -9,27 +9,27 @@ Inicio
     d_eny = Y2 - Y1
 
     Imprimir " La distancia de los puntos es de : " , d_enx ," En X " Y " , d_eny , "En Y "
-
+```
 ### <mark>2. Algoritmo para convertir metros a pulgadas
-
+```
 Inicio
     Leer metros
     pulgadas = metros / 0.0254
     Imprimir "El total en pulgadas es de : ", pulgadas
 Fin
-
+```
 ### <mark>3. Algoritmo para determinar la hipotenusa de un triángulo rectángulo
-
+```
 Inicio
     Leer A, B
     C = √(A^2 + B^2)
     Imprimir "La hipotenusa del triangulo es : ", C
 Fin
-
+```
  
 
 ### <mark>4. Algoritmo para calcular la edad y determinar si la persona ya ha celebrado su cumpleaños
-
+```
 Inicio
     Leer dia_nacimiento, mes_nacimiento, año_nacimiento
     Leer dia_actual, mes_actual, año_actual
@@ -54,10 +54,10 @@ Inicio
 
     Imprimir "Edad actual: ", edad
 Fin
-
+```
 
 ### <mark>5. Algoritmo para calcular el sueldo semanal con horas extra
-
+```
 Inicio
     Leer horas_trabajadas, pago_por_hora
 
@@ -85,9 +85,9 @@ Fin Si
     Imprimir "El sueldo semanal es: ", sueldo
 Fin
 
-
+```
 ### <mark>6. Algoritmo para contar ceros, menores a cero y mayores a cero en N números
-
+```
 Inicio
     Leer N
     cero = 0
@@ -117,9 +117,9 @@ Inicio
     Imprimir "Menores a cero: ", menor_a_cero
     Imprimir "Mayores a cero: ", mayor_a_cero
 Fin
-
+```
 ### <mark>7. Algoritmo para determinar cuánto ahorrará una persona en un año
-
+```
 Inicio
     total_ahorro = 0
     
@@ -132,9 +132,9 @@ Inicio
     Imprimir "El ahorro total al final del año es: ", total_ahorro
 Fin
 
-
+```
 ### <mark>8. Algoritmo para calcular el precio con descuento de artículos
-
+```
 Inicio
     Leer N
     total_pago = 0
@@ -165,7 +165,7 @@ Inicio
 
     Imprimir "Total a pagar: ", total_pago
 Fin
-
+```
 
 ### <mark>9. Algoritmo para calcular una función exponencial
 
