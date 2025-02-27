@@ -38,7 +38,7 @@ Inicio
     
     Si mes_actual < mes_nacimiento O (mes_actual == mes_nacimiento && dia_actual < dia_nacimiento)
         edad = edad - 1
-         Imprimir "La persona aún no ha cumplido años cumpleaños "
+         Imprimir "Aun no cumples años "
 
     Sino
     
@@ -47,12 +47,12 @@ Inicio
 
         Sino
         
-            Imprimir "La persona ya cumplió años "
+            Imprimir "Ya cumpliste años "
             
         FinSi 
     Fin si        
 
-    Imprimir "Edad actual: ", edad
+    Imprimir "La edad actual es de : ", edad
 Fin
 ```
 
@@ -82,7 +82,7 @@ Inicio
     Fin Si
 Fin Si    
    
-    Imprimir "El sueldo semanal es: ", sueldo
+    Imprimir "El sueldo semanal fue de : ", sueldo
 Fin
 
 ```
@@ -129,7 +129,7 @@ Inicio
         
     Fin Para
 
-    Imprimir "El ahorro total al final del año es: ", total_ahorro
+    Imprimir "El ahorro total al final del año fue de : ", total_ahorro
 Fin
 
 ```
@@ -160,10 +160,10 @@ Inicio
         precio_final = precio - descuento_aplicado
         total_pago = total_pago + precio_final
         
-        Imprimir "Precio artículo ", i, ": ", precio, ", Descuento: ", descuento_aplicado, ", Precio final: ", precio_final
+        Imprimir "Precio artículo ", i, ": ", precio, ", el descuento fue de: ", descuento_aplicado, ", Y el precio final es de : ", precio_final
     Fin Para
 
-    Imprimir "Total a pagar: ", total_pago
+    Imprimir "El Total a pagar es de : ", total_pago
 Fin
 ```
 
