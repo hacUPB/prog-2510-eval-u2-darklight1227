@@ -122,11 +122,14 @@ Fin
 ```
 Inicio
     total_ahorro = 0
+     inicio_ahorro = 3
     
-    Para dia = 1 hasta 365 
-        ahorro_diario = #^(dia-1)
-        total_ahorro = total_ahorro + ahorro_diario
-        
+    Para dia = 1 hasta 365
+        ahorro_diario = inicio_ahorroʌdia
+        total_ahorro = total_ahorro + ahorro_diario (dia+1)
+
+    Imprimir " El total del ahorro al día fue de : " , ahorro_diario
+
     Fin Para
 
     Imprimir "El ahorro total al final del año fue de : ", total_ahorro
