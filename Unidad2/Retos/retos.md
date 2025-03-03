@@ -66,12 +66,12 @@ Inicio
         
     Sino
     
-        Si horas_trabajadas <= 45 
+        Si horas_trabajadas >40 && horas_trabajadas <= 45 
             sueldo = (40 * pago_por_hora) + ((horas_trabajadas - 40) * (pago_por_hora * 2))
             
         Sino
         
-            Si horas_trabajadas <= 50 
+            Si horas_trabajadas >45 && horas_trabajadas <= 50 
                 sueldo = (40 * pago_por_hora) + (5 * (pago_por_hora * 2)) + ((horas_trabajadas - 45) * (pago_por_hora * 3))
                 
             Sino
