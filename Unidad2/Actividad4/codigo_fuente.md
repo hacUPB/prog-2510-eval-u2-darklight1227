@@ -1,4 +1,4 @@
-## <mark>Conversion de pseudocódigo a Python
+## <mark>Conversion de pseudocódigo a Python 💻
 
 ### <mark>Ejercicio 1 
 ```
